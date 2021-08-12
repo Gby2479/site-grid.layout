@@ -18,15 +18,14 @@
 
 h1{
     grid-column: span 6;
-    padding-top: 15vh;
-    margin-left: 1.5vw;
+    padding-top: 25vh;
+    margin-left: 2vw;
 }
 #logo{
     grid-column: 3/5;
 }
 #logo img{
     width: 30vw;
-    margin-top: 2vh;
 }
 nav{
     width: 100vw;
@@ -157,9 +156,60 @@ section div{
 #planos-ouro{
     background-color: #f1f115;
 }
-
+#valores{
+    width: 100%;
+    padding-left: 3vw;
+}
+#valores div {
+    width: 90vw;
+}
+#valores div h2{
+    padding-left: 0.5vw;
+}
+#valores div p{
+    text-align: justify;
+    margin-top: 1.5vh;
+    margin-left: 1.5vw;
+    font-size: 3vh;
+    
+}
+#Quali{
+  border-left: 1vw solid #4632FD;
+}
+#eficiência{
+  border-left: 1vw solid #FE2222;
+}
+#compromisso{
+  border-left: 1vw solid #098809;
+}
+#inovacao{
+  border-left: 1vw solid #F5FB30;
+}
+#pesquisa{
+  border-left: 1vw solid #F632FD;
+}
+#qualidade{
+  border-left: 1vw solid #34C1F7;
+  
+}
+@media only screen and (min-width: 320px){
+    #logo{
+        width: 100vw;
+    }
+    #logo img{
+        width: 125px;
+        
+    }
+    header{
+        height: 20vh;
+    }
+    h1{
+        padding-top: 20vh;
+    }
+}
 
 @media only screen and (min-width: 980px){
+    
     #logo{
         grid-column: 1/2;
     }
@@ -193,6 +243,9 @@ section div{
     }
     #planos div a{
         margin-left: 8vw;
+    }
+    #valores div{
+        width: 53vh;
     }
     
     
